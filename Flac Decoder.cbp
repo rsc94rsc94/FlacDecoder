@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Flac Decoder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Flac Decoder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="--show_bit_rate" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/riteshc/Documents/CPP/Flac Decoder/Headers" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Flac Decoder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="headers/UTF8.h" />
+		<Unit filename="headers/flacStream.h" />
+		<Unit filename="headers/frame.h" />
+		<Unit filename="headers/main.h" />
+		<Unit filename="headers/metadata.h" />
+		<Unit filename="headers/metadataData.h" />
+		<Unit filename="headers/metadataHeader.h" />
+		<Unit filename="headers/picture.h" />
+		<Unit filename="headers/reader.h" />
+		<Unit filename="headers/seekpoint.h" />
+		<Unit filename="headers/seektable.h" />
+		<Unit filename="headers/streaminfo.h" />
+		<Unit filename="headers/subframe.h" />
+		<Unit filename="headers/subheader.h" />
+		<Unit filename="headers/tinyxml2.h" />
+		<Unit filename="headers/utilities.h" />
+		<Unit filename="headers/vorbisComments.h" />
+		<Unit filename="soruce/UTF8.cpp" />
+		<Unit filename="soruce/flacStream.cpp" />
+		<Unit filename="soruce/frame.cpp" />
+		<Unit filename="soruce/main.cpp" />
+		<Unit filename="soruce/metadata.cpp" />
+		<Unit filename="soruce/metadataHeader.cpp" />
+		<Unit filename="soruce/picture.cpp" />
+		<Unit filename="soruce/reader.cpp" />
+		<Unit filename="soruce/seekpoint.cpp" />
+		<Unit filename="soruce/seektable.cpp" />
+		<Unit filename="soruce/streaminfo.cpp" />
+		<Unit filename="soruce/subframe.cpp" />
+		<Unit filename="soruce/subheader.cpp" />
+		<Unit filename="soruce/tinyxml2.cpp" />
+		<Unit filename="soruce/utilities.cpp" />
+		<Unit filename="soruce/vorbisComments.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

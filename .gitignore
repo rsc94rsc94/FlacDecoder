@@ -30,3 +30,19 @@
 *.exe
 *.out
 *.app
+
+# XML's
+*.xml
+
+
+
+#old FIles
+*.bak
+*.bak2
+
+# test output files
+*.txt
+
+#test Files for now
+*.flac
+*.wav

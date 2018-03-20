@@ -1,0 +1,432 @@
+# depslib dependency file v1.0
+1516298830 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\flacstream.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<vector>
+	<string>
+	<string.h>
+	"reader.h"
+	"metadata.h"
+	"flacStream.h"
+	"utilities.h"
+	"picture.h"
+
+1516270769 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\reader.h
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1516201294 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\metadata.h
+	<iostream>
+	"metadataHeader.h"
+	"metadataData.h"
+	"reader.h"
+
+1515675262 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\metadataheader.h
+	<iostream>
+	"reader.h"
+
+1516283583 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\metadatadata.h
+	<vector>
+	<iostream>
+	"reader.h"
+	"metadataHeader.h"
+	"seekpoint.h"
+
+1516298844 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\flacstream.h
+	<iostream>
+	<string>
+	"reader.h"
+	<vector>
+	"metadata.h"
+	"frame.h"
+	"streaminfo.h"
+	"vorbisComments.h"
+	"seektable.h"
+	"picture.h"
+	"tinyxml2.h"
+
+1516175010 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\frame.h
+	<iostream>
+	<vector>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+
+1516267264 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\streaminfo.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1516175008 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\frame.cpp
+	<iostream>
+	<iomanip>
+	"frame.h"
+	"UTF8.h"
+
+1515736141 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\utf8.h
+	<iostream>
+	<vector>
+	"reader.h"
+
+1516201309 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\metadata.cpp
+	<iostream>
+	"metadata.h"
+	"streaminfo.h"
+	"vorbisComments.h"
+	"seekpoint.h"
+	"picture.h"
+
+1516271472 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\vorbiscomments.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1516298800 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\main.cpp
+	<iostream>
+	<string>
+	"reader.h"
+	"flacStream.h"
+	"tinyxml2.h"
+
+1515675262 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\metadataheader.cpp
+	<iostream>
+	"reader.h"
+	"metadataHeader.h"
+
+1516270725 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\reader.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"reader.h"
+	<math.h>
+
+1516270655 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\streaminfo.cpp
+	<iostream>
+	"metadataData.h"
+	"streaminfo.h"
+	<iomanip>
+
+1515737599 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\utf8.cpp
+	<iostream>
+	<iomanip>
+	"UTF8.h"
+
+1516271416 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\vorbiscomments.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"vorbisComments.h"
+
+1516287854 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\picture.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"picture.h"
+
+1516279817 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\picture.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1516273249 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\seekpoint.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"seektable.h"
+
+1516272947 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\seekpoint.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+	<vector>
+
+1516274504 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1516206245 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1516267787 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\utilities.h
+	<iostream>
+	<iomanip>
+
+1516272987 c:\users\riteshc\documents\cpp\flac decoder\flac decoder\seektable.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+	<vector>
+	"seekpoint.h"
+
+1516273306 source:c:\users\riteshc\documents\cpp\flac decoder\flac decoder\seektable.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"seektable.h"
+
+1518783020 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\frame.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"frame.h"
+	"UTF8.h"
+
+1518684836 c:\users\riteshc\documents\cpp\flac decoder\headers\frame.h
+	<iostream>
+	<vector>
+	<fstream>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+	"subframe.h"
+
+1518639401 c:\users\riteshc\documents\cpp\flac decoder\headers\reader.h
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1516267264 c:\users\riteshc\documents\cpp\flac decoder\headers\streaminfo.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1516283583 c:\users\riteshc\documents\cpp\flac decoder\headers\metadatadata.h
+	<vector>
+	<iostream>
+	"reader.h"
+	"metadataHeader.h"
+	"seekpoint.h"
+
+1515675262 c:\users\riteshc\documents\cpp\flac decoder\headers\metadataheader.h
+	<iostream>
+	"reader.h"
+
+1516272947 c:\users\riteshc\documents\cpp\flac decoder\headers\seekpoint.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+	<vector>
+
+1515736141 c:\users\riteshc\documents\cpp\flac decoder\headers\utf8.h
+	<iostream>
+	<vector>
+	"reader.h"
+
+1516201309 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\metadata.cpp
+	<iostream>
+	"metadata.h"
+	"streaminfo.h"
+	"vorbisComments.h"
+	"seekpoint.h"
+	"picture.h"
+
+1516201294 c:\users\riteshc\documents\cpp\flac decoder\headers\metadata.h
+	<iostream>
+	"metadataHeader.h"
+	"metadataData.h"
+	"reader.h"
+
+1516271472 c:\users\riteshc\documents\cpp\flac decoder\headers\vorbiscomments.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1516279817 c:\users\riteshc\documents\cpp\flac decoder\headers\picture.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+
+1519106881 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\flacstream.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<vector>
+	<string>
+	<string.h>
+	"reader.h"
+	"metadata.h"
+	"flacStream.h"
+	"picture.h"
+
+1518684715 c:\users\riteshc\documents\cpp\flac decoder\headers\flacstream.h
+	<iostream>
+	<string>
+	"reader.h"
+	<vector>
+	"metadata.h"
+	"frame.h"
+	"streaminfo.h"
+	"vorbisComments.h"
+	"seektable.h"
+	"picture.h"
+	"utilities.h"
+	"tinyxml2.h"
+
+1516272987 c:\users\riteshc\documents\cpp\flac decoder\headers\seektable.h
+	<iostream>
+	"metadataData.h"
+	<iomanip>
+	<vector>
+	"seekpoint.h"
+
+1516304186 c:\users\riteshc\documents\cpp\flac decoder\headers\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1518452691 c:\users\riteshc\documents\cpp\flac decoder\headers\utilities.h
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<string>
+
+1519290133 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"reader.h"
+	"flacStream.h"
+	"tinyxml2.h"
+
+1515675262 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\metadataheader.cpp
+	<iostream>
+	"reader.h"
+	"metadataHeader.h"
+
+1517899084 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\picture.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"picture.h"
+
+1519122737 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\reader.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+	<stdlib.h>
+	"reader.h"
+	<math.h>
+
+1516273249 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\seekpoint.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"seektable.h"
+
+1516900403 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\seektable.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"seektable.h"
+
+1516270655 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\streaminfo.cpp
+	<iostream>
+	"metadataData.h"
+	"streaminfo.h"
+	<iomanip>
+
+1516304352 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1515737599 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\utf8.cpp
+	<iostream>
+	<iomanip>
+	"UTF8.h"
+
+1516271416 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\vorbiscomments.cpp
+	<iostream>
+	<string>
+	<string.h>
+	"metadataData.h"
+	"vorbisComments.h"
+
+1516608191 source:c:\users\riteshc\documents\cpp\flac decoder\subframe.cpp
+
+1518789045 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\subframe.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+	"subframe.h"
+	"subheader.h"
+	"frame.h"
+
+1518454987 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\subheader.cpp
+	<iostream>
+	<vector>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+	"subheader.h"
+
+1516611668 c:\users\riteshc\documents\cpp\flac decoder\headers\subheader.h
+	<iostream>
+	<vector>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+
+1518713935 c:\users\riteshc\documents\cpp\flac decoder\headers\subframe.h
+	<iostream>
+	<vector>
+	"reader.h"
+	"streaminfo.h"
+	"metadataData.h"
+	"subheader.h"
+	"utilities.h"
+
+1518452593 source:c:\users\riteshc\documents\cpp\flac decoder\soruce\utilities.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"utilities.h"
+
